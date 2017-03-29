@@ -16,7 +16,7 @@ To test the jdbc connection you can use any jdbc client bellow an example using 
 Add a new driver in squirrel: <br>
 **Example URL:** jdbc:hive2://localhost:10000<br>
 **Class Name:** org.apache.hive.jdbc.HiveDriver<br>
-**Extra Class Path**: This driver has quite a lot of dependencies so in the "Extra Class Path" tab I selected all the jars in the \<spark_home_path>/jars folder. 
+**Extra Class Path**: This driver has quite a lot of dependencies so in the "Extra Class Path" tab I selected all the jars in the $spark_home/jars folder. 
 
 
 Create a new connection to using the default url in your host machine and that's it!
