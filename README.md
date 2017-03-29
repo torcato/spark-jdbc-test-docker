@@ -4,9 +4,9 @@ This is the Dockerfile and startup script used for testing raw using a spark-clu
 
 
 The script will start docker 4 containers.
-* a master node port 8080 mapped to host machine to get the status of the spark cluster.
-* a slave node.
-* a thriftserver (the jdbc server for spark), port 10000 mapped to host machine for jdbc connection.
+* a master node: port 8080 mapped to host machine to get the status of the spark cluster.
+* a worker node.
+* a thriftserver, the jdbc server for spark: port 10000 mapped to host machine for jdbc connection.
 * and a spark shell so that we can create some data (optional).
 
 ## Usage
