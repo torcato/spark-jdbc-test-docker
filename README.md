@@ -13,10 +13,10 @@ run the start.sh script to build and start the docker containers.
 To test the jdbc connection you can use any jdbc client bellow an example using Squirrel SQL.
 
 ### Squirrel SQL instructions:
-Add a new driver in squirrel <br>
+Add a new driver in squirrel: <br>
 **Example URL:** jdbc:hive2://localhost:10000<br>
 **Class Name:** org.apache.hive.jdbc.HiveDriver<br>
-This driver has quite a lot of dependencies so in the "Extra Class Path" tab I selected all the jars in the \<spark path>/jars folder. 
+**Extra Class Path**: This driver has quite a lot of dependencies so in the "Extra Class Path" tab I selected all the jars in the \<spark_home_path>/jars folder. 
 
 
 Create a new connection to using the default url in your host machine and that's it!
